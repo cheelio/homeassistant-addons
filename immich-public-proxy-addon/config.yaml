@@ -11,9 +11,9 @@ arch:
   - i386
 ports:
   3000/tcp: 3000
-
+schema:
+  immich_url: str
 options:
   immich_url: "https://internal-immich-url"
-
 environment:
   IMMICH_URL: "{immich_url}"
