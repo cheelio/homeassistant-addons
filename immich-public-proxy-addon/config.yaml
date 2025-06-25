@@ -1,6 +1,6 @@
 name: "Immich public proxy"
 description: "Homeassistant addon that wraps an Immich public proxy"
-version: "1.0.7"
+version: "1.0.8"
 slug: "immich_public_proxy"
 init: false
 arch:
@@ -10,7 +10,7 @@ arch:
   - armv7
   - i386
 ports:
-  3000/tcp: 3000
+  3000/tcp: 8085
 schema:
   immich_url: str
 options:
