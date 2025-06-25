@@ -1,3 +1,3 @@
 #!/usr/bin/with-contenv bashio
 
-echo "Immich public proxy!"
+echo "IMMICH_URL=$IMMICH_URL"
