@@ -1,9 +1,8 @@
-#!/usr/bin/with-contenv bashio
+#!/bin/sh
 
-IMMICH_URL=$(bashio::config 'immich_url')
-
+IMMICH_URL=$(jq -r '.immich_url' /data/options.json)
 export IMMICH_URL
-export API_KEY
 
-echo "IMMICH_URL is: $IMMICH_URL"
+echo "IMMICH_URL=$IMMICH_URL"
+
 node dist/index.js
