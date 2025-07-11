@@ -1,6 +1,6 @@
 name: "Immich public proxy"
 description: "Homeassistant addon that wraps an Immich public proxy"
-version: "1.0.17"
+version: "1.0.18"
 slug: "immich_public_proxy"
 init: false
 arch:
