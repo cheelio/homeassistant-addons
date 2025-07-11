@@ -1,5 +1,5 @@
 ARG BUILD_FROM
 FROM alangrainger/immich-public-proxy:latest
-COPY run.sh /usr/local/bin/run.sh
-RUN chmod a+x /usr/local/bin/run.sh
-CMD [ "/usr/local/bin/run.sh" ]
+COPY run.sh /app/run.sh
+RUN chmod a+x /app/run.sh
+CMD [ "/app/run.sh" ]
