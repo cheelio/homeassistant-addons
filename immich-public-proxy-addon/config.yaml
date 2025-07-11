@@ -1,6 +1,6 @@
 name: "Immich public proxy"
 description: "Homeassistant addon that wraps an Immich public proxy"
-version: "1.0.16"
+version: "1.0.17"
 slug: "immich_public_proxy"
 init: false
 arch:
@@ -15,5 +15,3 @@ schema:
   immich_url: str
 options:
   immich_url: "https://internal-immich-url"
-environment:
-  IMMICH_URL: "{immich_url}"
